@@ -1,0 +1,29 @@
+*{
+    background-color: rgb(250, 235, 215);
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-family: 'Courier New', 'Geogria', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+.recipe-list li a{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul,
+ol,
+p{
+    font-family: 'Lucida Console', 'Courier New', sans-serif;
+}
+
+.heading-border{
+    border: 10px dotted;
+    width: 0 auto;
+}
