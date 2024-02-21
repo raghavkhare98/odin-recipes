@@ -1,5 +1,6 @@
 *{
     background-color: rgb(250, 235, 215);
+    margin-right: 10px;
 }
 
 h1,
@@ -13,14 +14,14 @@ h1{
     text-align: center;
     border: 5px dotted;
     width: 500px;
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-top:20px;
-}
+    margin: 0 auto;
+    margin-bottom: 50px;
+} 
 
 .recipe-list{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     gap: 100px;
 }
 
@@ -41,14 +42,35 @@ img{
 
 .image-flex-container{
     display: flex;
+    
 }
 
 .flex-item-description{
     margin-left: 20px;
     width: 600px;
-    margin-top: 100px;
+    
 }
 
 .flex-item-description h2{
     text-align: left;
+    margin-top: 0px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
